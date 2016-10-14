@@ -1,0 +1,20 @@
+﻿Build started 2016-10-14 11:40:00 AM.
+     1>Project "D:\Level06\Graphics\Projects\Project 1\Project1\Template\Template.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Level06\Graphics\x86\SFML-2.4.0/include" /Zi /nologo /W3 /WX- /sdl /Od /D SFML_STATIC /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp TransformNode.cpp
+         TransformNode.cpp
+         main.cpp
+     1>main.cpp(197): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>main.cpp(204): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(214): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(224): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Level06\Graphics\Projects\Project 1\Project1\x64\Debug\Project1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Level06\Graphics\x86\SFML-2.4.0/lib" "sfml-graphics-s-d.lib" "sfml-window-s-d.lib" "sfml-system-s-d.lib" "sfml-audio-s-d.lib" opengl32.lib freetype.lib jpeg.lib winmm.lib gdi32.lib openal32.lib flac.lib vorbisenc.lib vorbisfile.lib vorbis.lib ogg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Level06\Graphics\Projects\Project 1\Project1\x64\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Level06\Graphics\Projects\Project 1\Project1\x64\Debug\Project1.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\TransformNode.obj
+     1>sfml-graphics-s-d.lib(Transform.cpp.obj) : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'
+     1>Done Building Project "D:\Level06\Graphics\Projects\Project 1\Project1\Template\Template.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.94
